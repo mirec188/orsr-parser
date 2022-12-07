@@ -84,7 +84,7 @@ class ConnectorOrsr
 	public $dirCache;
 
 	/** @var bool If false, make php tidy extension optional. Definitely NOT recommended, but for some hostings the only way to go. */
-	public $useTidy = true;
+	public $useTidy = false;
 
 	/** @var bool If false, return empty results on error (looks like no matches found and user won't see error message) */
 	public $showXmlErrors = true;
